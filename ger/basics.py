@@ -16,8 +16,8 @@ text = "Hallo"  # str
 wahrheitswert = True  # bool
 
 # Listen
-früchte = ["Apfel", "Banane", "Kirsche"]
-print(früchte[0])  # Zugriff auf das erste Element
+fruechte = ["Apfel", "Banane", "Kirsche"]
+print(fruechte[0])  # Zugriff auf das erste Element
 
 # Tupel (unveränderliche Listen)
 farben = ("rot", "grün", "blau")
@@ -38,24 +38,24 @@ else:
 
 # Schleifen
 # for-Schleife
-for frucht in früchte:
+for frucht in fruechte:
     print(frucht)
 
 # while-Schleife
-zähler = 0
-while zähler < 5:
-    print(zähler)
-    zähler += 1
+zaehler = 0
+while zaehler < 5:
+    print(zaehler)
+    zaehler += 1
 
 
 ## Funktionen
 # Definition einer Funktion
-def begrüße(name):
+def begrueße(name):
     print(f"Hallo, {name}!")
 
 
 # Aufruf der Funktion
-begrüße("Alice")
+begrueße("Alice")
 
 
 # Funktion mit Rückgabewert
