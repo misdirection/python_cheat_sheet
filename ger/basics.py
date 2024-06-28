@@ -2,7 +2,7 @@
 
 # Konsolen-Eingabe und Ausgabe
 print("Hallo, Welt!")  # Ausgabe
-input("Wie heißt du? ")  # Eingabe
+eingabe = input("Wie heißt du? ")  # Eingabe
 
 # Variablen
 name = "Alice"
