@@ -41,6 +41,9 @@ else:
 for frucht in fruechte:
     print(frucht)
 
+for i in range(5):
+    print(i)
+
 # while-Schleife
 zaehler = 0
 while zaehler < 5:
@@ -57,11 +60,9 @@ def begrueße(name):
 # Aufruf der Funktion
 begrueße("Alice")
 
-
 # Funktion mit Rückgabewert
 def addiere(a, b):
     return a + b
-
 
 summe = addiere(3, 5)
 print(summe)
@@ -77,11 +78,9 @@ class Hund:
     def bellen(self):
         print(f"{self.name} sagt: Wuff!")
 
-
 # Erstellen eines Objekts
 mein_hund = Hund("Bello", 5)
 mein_hund.bellen()  # Aufruf einer Methode
-
 
 ##Wichtige Module
 # Importieren eines Moduls
